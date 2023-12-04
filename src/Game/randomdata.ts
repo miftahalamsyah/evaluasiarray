@@ -1,89 +1,87 @@
 export const Questions = [
   {
     id: Math.random(),
-    question: "Buatlah sebuah array dengan jenis integer dengan nama myNumbers!",
-    correctAnswer: "int myNumbers[] = {4, 2, 0, 6, 9};",
+    question: "Kapan UNESCO mengakui angklung sebagai Karya Agung Warisan Budaya Lisan dan Nonbendawi Manusia?",
+    correctAnswer: "November 2010",
     wrongAnswers: [
-      "int myNumbers[] = [4, 2, 0, 6, 9]",
-      "int myNumbers{} = {4, 2, 0, 6, 9};",
-      "INT myNumbers {4, 2, 0, 6, 9};"
+      "Desember 2011",
+      "Oktober 2009",
+      "September 2008;"
     ]
   },
 
   {
     id: Math.random(),
-    question: "Print value dari elemen kedua dalam array myNumbers!",
-    correctAnswer: "int myNumbers[] = {4, 2, 0, 6, 9}; printf(\"%d\", myNumbers[1] );",
+    question: "Apa jenis logam yang umumnya digunakan untuk membuat bonang?",
+    correctAnswer: "Perunggu",
     wrongAnswers: [
-      "int myNumbers[] = {4, 2, 0, 6, 9}; printf(\"%d\", myNumbers[2] );",
-      "int myNumbers[] = {4, 2, 0, 6, 9}: printf(\"%c\", myNumbers[2] ):",
-      "int myNumbers[] = {4, 2, 0, 6, 9}; printf(\"%c\", myNumbers[1] );"
+      "Emas",
+      "Perak",
+      "Besi"
     ]
   },
 
   {
     id: Math.random(),
-    question: "Ubah value elemen pertama menjadi 33!",
-    correctAnswer: "int myNumbers[] = {4, 2, 0, 6, 9}; myNumbers[0] = 33;",
+    question: "Selain dalam musik, di mana gendang sering digunakan?",
+    correctAnswer: "Dalam upacara keagamaan, upacara adat, dan ritual kebudayaan",
     wrongAnswers: [
-      "int myNumbers[5] = {4, 2, 0, 6, 9}; myNumbers[1] = 33;",
-      "int myNumbers[0] = {4, 2, 0, 6, 9}: myNumbers[0] = 33:",
-      "int myNumbers[] = {4, 2, 0, 6, 9}; myNumbers[1] = 33 ;"
+      "Hanya dalam musik populer",
+      "Hanya dalam upacara adat",
+      "Hanya dalam musik daerah"
     ]
   },
   
   {
     id: Math.random(),
-    question: "Loop elemen yang ada dalam array menggunakan for loop!",
-    correctAnswer: "int myNumbers[] = {4, 2, 0, 6, 9}; int i; for (i = 0; i < 5; i++) { printf(\"%d\\n\", myNumbers[i] ); }",
+    question: "Ukiran dan desain pada gong sering memiliki makna apa?",
+    correctAnswer: "Simbolis yang mendalam",
     wrongAnswers: [
-      "int myNumbers[] = {4, 2, 0, 6, 9}; int i; for (i = 0; i < 5; i++) { printf(\"%c\\n\", myNumbers[i] ); }",
-      "int myNumbers[] = {4, 2, 0, 6, 9}; int i; for (i = 0; i < 5; i++) { printf(\"%c\\n\", myNumbers[5] ); }",
-      "int myNumbers[] = {4, 2, 0, 6, 9}; int i; for (i = 0; i < 5; i++) { printf(\"%d\\n\", myNumbers[5] ); }"
+      "Kesenian",
+      "Dekoratif",
+      "Memudahkan pemain"
     ]
   },
   {
     id: Math.random(),
-    question: "Manakah inisialisasi yang digunakan untuk membuat array satudimensi?",
-    correctAnswer: "int nama_array[10];",
+    question: "Daerah mana di Indonesia yang khususnya terkait dengan penggunaan rebab dalam gamelan?",
+    correctAnswer: "Jawa",
     wrongAnswers: [
-      "int nama_array(10);",
-      "integer nama_array(10):",
-      "integer nama_array[10];"
+      "Sumatra",
+      "Kalimantan",
+      "Sulawesi"
     ]
   },
   {
     id: Math.random(),
-    question: "Cara ambil huruf C dari array berikut: char huruf[5] = {'a', 'b', 'c', 'd', 'e'};",
-    correctAnswer: "huruf[2];",
+    question: "Ciri khas sapek adalah memiliki badan kayu yang panjang dan senar yang direntangkan. Suara pada sapek dihasilkan dengan cara apa?",
+    correctAnswer: "Dipetik",
     wrongAnswers: [
-      "huruf[3];",
-      "huruf(2);",
-      "huruf(3);"
+      "Ditiup",
+      "Dipukul",
+      "Digesek"
     ]
   },
   
   {
     id: Math.random(),
-    question: "Keluaran dari kode berikut " +
-        " char huruf[5] = {'a', 'r', 'a', 'y', 'x'}; " +
-        "printf(\"Huruf: %c\\n\", huruf[2]);",
-    correctAnswer: "Huruf: a",
+    question: "Bagaimana suara pada saron dihasilkan?",
+    correctAnswer: "Dipukul",
     wrongAnswers: [
-      "Huruf: r",
-      "Error",
-      "Kesalahan sintaks"
+      "Ditiup",
+      "Dipetik",
+      "Digesek"
     ]
   },
 
   {
     id: Math.random(),
-    question: "Buat array dengan indeks array ke 1 adalah 20 dan 4 adalah 2",
-    correctAnswer: "int myNumbers[] = {4, 20, 31, 43, 2};",
+    question: "Bagian mana dari serunai yang digunakan untuk meniup udara?",
+    correctAnswer: "Lubang bagian atas",
     wrongAnswers: [
-      "int myNumbers() = (4, 20, 31, 43, 2);",
-      "int myNumbers[] = {20, 4, 43, 21, 31};",
-      "int myNumbers() = (20, 4, 43, 21, 31);"
+      "Lubang bagian bawah",
+      "Lubang bagian tengah",
+      "Lubang bagian kiri"
     ]
   },
 
